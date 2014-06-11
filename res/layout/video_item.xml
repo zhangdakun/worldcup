@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff0a5f38" android:layout_gravity="center" android:id="@id/videoTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="四年再聚首" android:drawableLeft="@drawable/dian" android:drawablePadding="5.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffe4fff8" android:gravity="center_vertical" android:id="@id/titleTextView" android:background="#ff0f5f3c" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="6月5日" />
+</LinearLayout>

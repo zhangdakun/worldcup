@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/groupLayout" android:background="@drawable/up" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="3.0dip">
+        <TextView android:textSize="28.0sp" android:textColor="#fff4d958" android:id="@id/monthTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" />
+        <TextView android:textSize="16.0sp" android:textColor="#fff4d958" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="月" />
+        <TextView android:textSize="28.0sp" android:textColor="#fff4d958" android:id="@id/dayTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16" />
+        <TextView android:textSize="16.0sp" android:textColor="#fff4d958" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="日" />
+    </LinearLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@*android:color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/typeTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="小组赛" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="sidebuffer" format="integer" />
+    <attr name="activeColor" format="color" />
+    <attr name="inactiveColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="centered" format="boolean" />
+    <attr name="fadeOut" format="integer" />
+    <attr name="inactiveType">
+        <flag name="stroke" value="0x00000000" />
+        <flag name="fill" value="0x00000001" />
+    </attr>
+    <attr name="activeType">
+        <flag name="stroke" value="0x00000000" />
+        <flag name="fill" value="0x00000001" />
+    </attr>
+    <attr name="circleSeparation" format="dimension" />
+    <attr name="activeRadius" format="dimension" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="vpiIconPageIndicatorStyle" format="reference" />
+    <attr name="vpiLinePageIndicatorStyle" format="reference" />
+    <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+    <attr name="vpiTabPageIndicatorStyle" format="reference" />
+    <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="clipPadding" format="dimension" />
+    <attr name="footerColor" format="color" />
+    <attr name="footerLineHeight" format="dimension" />
+    <attr name="footerIndicatorStyle">
+        <enum name="none" value="0" />
+        <enum name="triangle" value="1" />
+        <enum name="underline" value="2" />
+    </attr>
+    <attr name="footerIndicatorHeight" format="dimension" />
+    <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+    <attr name="footerPadding" format="dimension" />
+    <attr name="linePosition">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="selectedBold" format="boolean" />
+    <attr name="titlePadding" format="dimension" />
+    <attr name="topPadding" format="dimension" />
+    <attr name="normal_height" format="dimension" />
+    <attr name="expanded_height" format="dimension" />
+    <attr name="grabber" format="reference" />
+    <attr name="dragndrop_background" format="color" />
+    <attr name="remove_mode">
+        <enum name="none" value="-1" />
+        <enum name="fling" value="0" />
+        <enum name="slide" value="1" />
+        <enum name="slideRight" value="1" />
+        <enum name="slideLeft" value="2" />
+    </attr>
+    <attr name="lineWidth" format="dimension" />
+    <attr name="gapWidth" format="dimension" />
+    <attr name="fades" format="boolean" />
+    <attr name="fadeDelay" format="integer" />
+    <attr name="fadeLength" format="integer" />
+</resources>

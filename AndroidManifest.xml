@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ifeng.worldcup"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="WorldcupApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme" >
+        <activity
+            android:name="com.ifeng.worldcup.MainActivityNew"
+            android:label="@string/app_name"
+            android:theme="@style/StyledIndicators" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="WebviewActivity" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="535638cd56240b2f7c00e77d" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="market" />
+
+        <service
+            android:name="com.umeng.common.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@*android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

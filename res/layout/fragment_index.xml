@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="#fff1d651" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/startWorldCupLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="#ff010100" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="距2014巴西世界杯还有:" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                    <ImageView android:id="@id/imageOne" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:id="@id/imageTwo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                    <TextView android:textSize="20.0sp" android:textColor="#ff000200" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="天" />
+                </LinearLayout>
+                <TextView android:textSize="20.0sp" android:textColor="#ff010009" android:layout_gravity="center" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23:40:00" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/startGameLayout" android:background="@drawable/vs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="40.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ffbfa743" android:id="@id/timeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:text="2014年6月13日 " />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="40.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0sp" android:textColor="#ff323232" android:gravity="center" android:layout_gravity="center" android:id="@id/firstCountryText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="巴西" />
+                    <ImageView android:id="@id/firstCountryImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/baxi" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="18.0sp" android:textColor="#ff323232" android:gravity="center" android:layout_gravity="center" android:id="@id/secondCountryText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="克罗地亚" />
+                    <ImageView android:id="@id/secondCountryImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/keluodiya" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
